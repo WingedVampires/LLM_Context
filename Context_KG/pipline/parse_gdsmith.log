@@ -1,0 +1,1763 @@
+/Users/y/.cache/huggingface/modules/transformers_modules/jinaai/jina_hyphen_bert_hyphen_v2_hyphen_qk_hyphen_post_hyphen_norm/3baf9e3ac750e76e8edd3019170176884695fb94/configuration_bert.py:29: UserWarning: optimum is not installed. To use OnnxConfig and BertOnnxConfig, make sure that `optimum` package is installed
+  warnings.warn("optimum is not installed. To use OnnxConfig and BertOnnxConfig, make sure that `optimum` package is installed")
+Starting execution: 2025-11-09 14:04:06
+Configuration: {'repo_path': '/Users/y/Desktop/Conetxt_KG/repos/GDsmith', 'language': 'java'}
+创建新的 Embedding 实例
+初始化 pipeline...
+Using MPS device for acceleration on Apple Silicon.
+embedding model 初始化成功
+KnowledgeGraph: Embedding instance created successfully
+Successfully created all indexes and constraints
+======> Creating directory structure
+
+Processing file [1/2] (50.0%): Neo4jSchemaGeneratorTest.java
+
+Processing file [2/2] (100.0%): Neo4jJDBCTest.java
+
+Processing file [1/18] (5.6%): IgnoreMeException.java
+
+Processing file [2/18] (11.1%): ProviderAdapter.java
+
+Processing file [3/18] (16.7%): GlobalState.java
+
+Processing file [4/18] (22.2%): Randomly.java
+
+Processing file [5/18] (27.8%): OracleFactory.java
+
+Processing file [6/18] (33.3%): IGeneratorFactory.java
+
+Processing file [7/18] (38.9%): IDatabaseTestingAlgorithm.java
+
+Processing file [8/18] (44.4%): LikeImplementationHelper.java
+
+Processing file [9/18] (50.0%): Main.java
+
+Processing file [10/18] (55.6%): AbstractAction.java
+
+Processing file [11/18] (61.1%): StatementExecutor.java
+
+Processing file [12/18] (66.7%): StateToReproduce.java
+
+Processing file [13/18] (72.2%): DatabaseProvider.java
+
+Processing file [14/18] (77.8%): IGraphGeneratorFactory.java
+
+Processing file [15/18] (83.3%): ExecutionTimer.java
+
+Processing file [16/18] (88.9%): GDSmithDBConnection.java
+
+Processing file [17/18] (94.4%): MainOptions.java
+
+Processing file [18/18] (100.0%): DBMSSpecificOptions.java
+
+Processing file [1/2] (50.0%): CypherBasedGremlinQueryAdapter.java
+
+Processing file [2/2] (100.0%): CypherGremlinTranslater.java
+
+Processing file [1/7] (14.3%): Neo4jDriverManager.java
+
+Processing file [2/7] (28.6%): Neo4jOptions.java
+
+Processing file [3/7] (42.9%): Neo4jConnection.java
+
+Processing file [4/7] (57.1%): Neo4jGlobalState.java
+
+Processing file [5/7] (71.4%): Neo4jProxyConnection.java
+
+Processing file [6/7] (85.7%): Neo4jJDBCConnection.java
+
+Processing file [7/7] (100.0%): Neo4jProvider.java
+
+Processing file [1/2] (50.0%): Neo4jSmithCrashOracle.java
+
+Processing file [2/2] (100.0%): Neo4jNoRecOracle.java
+
+Processing file [1/1] (100.0%): Neo4jAlwaysTrueOracle.java
+
+Processing file [1/3] (33.3%): Neo4jSchemaGenerator.java
+
+Processing file [2/3] (66.7%): Neo4jNodeGenerator.java
+
+Processing file [3/3] (100.0%): Neo4jGraphGenerator.java
+
+Processing file [1/1] (100.0%): Neo4jSchema.java
+
+Processing file [1/5] (20.0%): PrintGraphProvider.java
+
+Processing file [2/5] (40.0%): PrintGraphOptions.java
+
+Processing file [3/5] (60.0%): PrintGraphGlobalState.java
+
+Processing file [4/5] (80.0%): PrintGraphSchema.java
+
+Processing file [5/5] (100.0%): PrintGraphConnection.java
+
+Processing file [1/1] (100.0%): PrintGraphAlwaysTrueOracle.java
+
+Processing file [1/5] (20.0%): RedisGraphOptions.java
+
+Processing file [2/5] (40.0%): RedisGraphProvider.java
+
+Processing file [3/5] (60.0%): RedisGraphSchema.java
+
+Processing file [4/5] (80.0%): RedisGraphGlobalState.java
+
+Processing file [5/5] (100.0%): RedisGraphConnection.java
+
+Processing file [1/1] (100.0%): RedisGraphAlwaysTrueOracle.java
+
+Processing file [1/2] (50.0%): RedisGraphSchemaGenerator.java
+
+Processing file [2/2] (100.0%): RedisGraphGraphGenerator.java
+
+Processing file [1/4] (25.0%): TinkerOptions.java
+
+Processing file [2/4] (50.0%): TinkerGlobalState.java
+
+Processing file [3/4] (75.0%): TinkerConnection.java
+
+Processing file [4/4] (100.0%): TinkerProvider.java
+
+Processing file [1/1] (100.0%): TinkerSmithCrashOracle.java
+
+Processing file [1/3] (33.3%): TinkerGraphGenerator.java
+
+Processing file [2/3] (66.7%): TinkerSchemaGenerator.java
+
+Processing file [3/3] (100.0%): TinkerNodeGenerator.java
+
+Processing file [1/1] (100.0%): TinkerSchema.java
+
+Processing file [1/8] (12.5%): CypherQueryProvider.java
+
+Processing file [2/8] (25.0%): ICypherSupport.java
+
+Processing file [3/8] (37.5%): CypherQueryAdapter.java
+
+Processing file [4/8] (50.0%): CypherProviderAdapter.java
+
+Processing file [5/8] (62.5%): CypherLoggableFactory.java
+
+Processing file [6/8] (75.0%): ICypherSchema.java
+
+Processing file [7/8] (87.5%): CypherConnection.java
+
+Processing file [8/8] (100.0%): CypherGlobalState.java
+
+Processing file [1/27] (3.7%): ManualClauseSequence.java
+
+Processing file [2/27] (7.4%): CypherTypeDescriptor.java
+
+Processing file [3/27] (11.1%): With.java
+
+Processing file [4/27] (14.8%): Merge.java
+
+Processing file [5/27] (18.5%): Label.java
+
+Processing file [6/27] (22.2%): IClauseSequenceBuilder.java
+
+Processing file [7/27] (25.9%): Property.java
+
+Processing file [8/27] (29.6%): Alias.java
+
+Processing file [9/27] (33.3%): ClauseSequence.java
+
+Processing file [10/27] (37.0%): Pattern.java
+
+Processing file [11/27] (40.7%): RelationIdentifier.java
+
+Processing file [12/27] (44.4%): CypherClause.java
+
+Processing file [13/27] (48.1%): Create.java
+
+Processing file [14/27] (51.9%): NodeIdentifier.java
+
+Processing file [15/27] (55.6%): Ret.java
+
+Processing file [16/27] (59.3%): RelationType.java
+
+Processing file [17/27] (63.0%): MapDescriptor.java
+
+Processing file [18/27] (66.7%): Symtab.java
+
+Processing file [19/27] (70.4%): Match.java
+
+Processing file [20/27] (74.1%): CypherType.java
+
+Processing file [21/27] (77.8%): RelationAnalyzer.java
+
+Processing file [22/27] (81.5%): Unwind.java
+
+Processing file [23/27] (85.2%): Return.java
+
+Processing file [24/27] (88.9%): AliasAnalyzer.java
+
+Processing file [25/27] (92.6%): NodeAnalyzer.java
+
+Processing file [26/27] (96.3%): ListDescriptor.java
+
+Processing file [27/27] (100.0%): ContextInfo.java
+
+Processing file [1/18] (5.6%): BinaryLogicalExpression.java
+
+Processing file [2/18] (11.1%): Star.java
+
+Processing file [3/18] (16.7%): BinaryNumberExpression.java
+
+Processing file [4/18] (22.2%): GraphObjectVal.java
+
+Processing file [5/18] (27.8%): ExprVal.java
+
+Processing file [6/18] (33.3%): CreateMapExpression.java
+
+Processing file [7/18] (38.9%): StringMatchingExpression.java
+
+Processing file [8/18] (44.4%): IdentifierExpression.java
+
+Processing file [9/18] (50.0%): CypherExpression.java
+
+Processing file [10/18] (55.6%): StringCatExpression.java
+
+Processing file [11/18] (61.1%): ConstExpression.java
+
+Processing file [12/18] (66.7%): CallExpression.java
+
+Processing file [13/18] (72.2%): GetListSliceExpression.java
+
+Processing file [14/18] (77.8%): SingleLogicalExpression.java
+
+Processing file [15/18] (83.3%): CreateListExpression.java
+
+Processing file [16/18] (88.9%): GetPropertyExpression.java
+
+Processing file [17/18] (94.4%): BinaryComparisonExpression.java
+
+Processing file [18/18] (100.0%): GetListElementExpression.java
+
+Processing file [1/17] (5.9%): LabelAdditionMutator.java
+
+Processing file [2/17] (11.8%): ClauseRefillMutator.java
+
+Processing file [3/17] (17.6%): MutatorType.java
+
+Processing file [4/17] (23.5%): GraphMutator.java
+
+Processing file [5/17] (29.4%): GraphCreatingMutator.java
+
+Processing file [6/17] (35.3%): OptionalAdditionMutator.java
+
+Processing file [7/17] (41.2%): ClauseExpansionMutator.java
+
+Processing file [8/17] (47.1%): WhereRemovalMutator.java
+
+Processing file [9/17] (52.9%): OptionalRemovalMutator.java
+
+Processing file [10/17] (58.8%): LimitShrinkingMutator.java
+
+Processing file [11/17] (64.7%): WhereRefillMutator.java
+
+Processing file [12/17] (70.6%): ClauseScissorsMutator.java
+
+Processing file [13/17] (76.5%): LimitExpandingMutator.java
+
+Processing file [14/17] (82.4%): PropertyAdditionMutator.java
+
+Processing file [15/17] (88.2%): WhereAdditionMutator.java
+
+Processing file [16/17] (94.1%): PatternAdditionMutator.java
+
+Processing file [17/17] (100.0%): IClauseMutator.java
+
+Processing file [1/6] (16.7%): OrRemovalMutator.java
+
+Processing file [2/6] (33.3%): ExpressionVisitor.java
+
+Processing file [3/6] (50.0%): StringMatchReductionMutator.java
+
+Processing file [4/6] (66.7%): ComparisonReverseMutator.java
+
+Processing file [5/6] (83.3%): AndRemovalMutator.java
+
+Processing file [6/6] (100.0%): ConditionReverseMutator.java
+
+Processing file [1/5] (20.0%): DifferentialOracle.java
+
+Processing file [2/5] (40.0%): ManualPerformanceOracle.java
+
+Processing file [3/5] (60.0%): NoRecOracle.java
+
+Processing file [4/5] (80.0%): ManualDifferentialOracle.java
+
+Processing file [5/5] (100.0%): DifferentialNonEmptyBranchOracle.java
+
+Processing file [1/16] (6.2%): SimpleTestingAlgorithm.java
+
+Processing file [2/16] (12.5%): Compared2AlgorithmNew.java
+
+Processing file [3/16] (18.8%): CoverageGuidedAlgorithm.java
+
+Processing file [4/16] (25.0%): Compared3Algorithm.java
+
+Processing file [5/16] (31.2%): Compared4Algorithm.java
+
+Processing file [6/16] (37.5%): Compared3AlgorithmNew.java
+
+Processing file [7/16] (43.8%): SimpleTestingAlgorithmBase.java
+
+Processing file [8/16] (50.0%): CypherTestingAlgorithm.java
+
+Processing file [9/16] (56.2%): EnumerationAlgorithm.java
+
+Processing file [10/16] (62.5%): ManualDifferentialAlgorithm.java
+
+Processing file [11/16] (68.8%): ManualPerformanceAlgorithm.java
+
+Processing file [12/16] (75.0%): NonEmptyAlgorithm.java
+
+Processing file [13/16] (81.2%): Compared5Algorithm.java
+
+Processing file [14/16] (87.5%): Compared1Algorithm.java
+
+Processing file [15/16] (93.8%): Compared1AlgorithmNew.java
+
+Processing file [16/16] (100.0%): Compared2Algorithm.java
+
+Processing file [1/10] (10.0%): EnumerationGraphManager.java
+
+Processing file [2/10] (20.0%): AbstractNode.java
+
+Processing file [3/10] (30.0%): SubgraphTreeNodeInstance.java
+
+Processing file [4/10] (40.0%): EnumerationSeq.java
+
+Processing file [5/10] (50.0%): SubgraphTreeNode.java
+
+Processing file [6/10] (60.0%): GraphManager.java
+
+Processing file [7/10] (70.0%): CypherSchemaGenerator.java
+
+Processing file [8/10] (80.0%): SubgraphManager.java
+
+Processing file [9/10] (90.0%): AbstractRelationship.java
+
+Processing file [10/10] (100.0%): Subgraph.java
+
+Processing file [1/3] (33.3%): EnumerationAliasGenerator.java
+
+Processing file [2/3] (66.7%): RandomAliasGenerator.java
+
+Processing file [3/3] (100.0%): GuidedAliasGenerator.java
+
+Processing file [1/6] (16.7%): TreeBasedGraphGenerator.java
+
+Processing file [2/6] (33.3%): TreeBasedGraphGeneratorCompared.java
+
+Processing file [3/6] (50.0%): SlidingGraphGenerator.java
+
+Processing file [4/6] (66.7%): ManualGraphGenerator.java
+
+Processing file [5/6] (83.3%): RandomGraphGenerator.java
+
+Processing file [6/6] (100.0%): EnumerationGraphGenerator.java
+
+Processing file [1/4] (25.0%): EnumerationExpressionGenerator.java
+
+Processing file [2/4] (50.0%): NonEmptyExpressionGenerator.java
+
+Processing file [3/4] (75.0%): NewRandomExpressionGenerator.java
+
+Processing file [4/4] (100.0%): RandomExpressionGenerator.java
+
+Processing file [1/4] (25.0%): StringMatchingAssertion.java
+
+Processing file [2/4] (50.0%): BooleanAssertion.java
+
+Processing file [3/4] (75.0%): ExpressionAssertion.java
+
+Processing file [4/4] (100.0%): ComparisonAssertion.java
+
+Processing file [1/3] (33.3%): RandomConditionGenerator.java
+
+Processing file [2/3] (66.7%): EnumerationConditionGenerator.java
+
+Processing file [3/3] (100.0%): GuidedConditionGenerator.java
+
+Processing file [1/3] (33.3%): EnumerationListGenerator.java
+
+Processing file [2/3] (66.7%): RandomListGenerator.java
+
+Processing file [3/3] (100.0%): GuidedListGenerator.java
+
+Processing file [1/4] (25.0%): EnumerationPatternGenerator.java
+
+Processing file [2/4] (50.0%): SlidingPatternGenerator.java
+
+Processing file [3/4] (75.0%): RandomPatternGenerator.java
+
+Processing file [4/4] (100.0%): GuidedPatternGenerator.java
+
+Processing file [1/15] (6.7%): GraphGuidedQueryGenerator.java
+
+Processing file [2/15] (13.3%): EnumerationQueryGenerator.java
+
+Processing file [3/15] (20.0%): RandomCoverageQueryGenerator.java
+
+Processing file [4/15] (26.7%): ModelBasedQueryGenerator.java
+
+Processing file [5/15] (33.3%): SubgraphGuidedQueryGenerator.java
+
+Processing file [6/15] (40.0%): SlidingQueryGenerator.java
+
+Processing file [7/15] (46.7%): ManualQueryGenerator.java
+
+Processing file [8/15] (53.3%): RandomQueryGenerator.java
+
+Processing file [9/15] (60.0%): TreeBasedQueryGenerator.java
+
+Processing file [10/15] (66.7%): TreeBasedQueryGeneratorCompared2.java
+
+Processing file [11/15] (73.3%): SlidingQueryGeneratorCompared.java
+
+Processing file [12/15] (80.0%): SlidingQueryGeneratorCompared2.java
+
+Processing file [13/15] (86.7%): AdvancedQueryGenerator.java
+
+Processing file [14/15] (93.3%): TreeBasedQueryGeneratorCompared.java
+
+Processing file [15/15] (100.0%): GuidedQueryGenerator.java
+
+Processing file [1/8] (12.5%): IPatternInfo.java
+
+Processing file [2/8] (25.0%): ILabelInfo.java
+
+Processing file [3/8] (37.5%): IFunctionInfo.java
+
+Processing file [4/8] (50.0%): IPatternElementInfo.java
+
+Processing file [5/8] (62.5%): CypherSchema.java
+
+Processing file [6/8] (75.0%): IRelationTypeInfo.java
+
+Processing file [7/8] (87.5%): IParamInfo.java
+
+Processing file [8/8] (100.0%): IPropertyInfo.java
+
+Processing file [1/23] (4.3%): ICypherClause.java
+
+Processing file [2/23] (8.7%): IType.java
+
+Processing file [3/23] (13.0%): ICopyable.java
+
+Processing file [4/23] (17.4%): IExpression.java
+
+Processing file [5/23] (21.7%): IWith.java
+
+Processing file [6/23] (26.1%): ICreate.java
+
+Processing file [7/23] (30.4%): IMerge.java
+
+Processing file [8/23] (34.8%): ILabel.java
+
+Processing file [9/23] (39.1%): IAlias.java
+
+Processing file [10/23] (43.5%): IProperty.java
+
+Processing file [11/23] (47.8%): INodeIdentifier.java
+
+Processing file [12/23] (52.2%): IIdentifier.java
+
+Processing file [13/23] (56.5%): IClauseSequence.java
+
+Processing file [14/23] (60.9%): IReturn.java
+
+Processing file [15/23] (65.2%): ITextRepresentation.java
+
+Processing file [16/23] (69.6%): IPatternElement.java
+
+Processing file [17/23] (73.9%): IPattern.java
+
+Processing file [18/23] (78.3%): IMatch.java
+
+Processing file [19/23] (82.6%): IRet.java
+
+Processing file [20/23] (87.0%): ICypherType.java
+
+Processing file [21/23] (91.3%): Direction.java
+
+Processing file [22/23] (95.7%): IRelationIdentifier.java
+
+Processing file [23/23] (100.0%): IUnwind.java
+
+Processing file [1/16] (6.2%): IMatchAnalyzer.java
+
+Processing file [2/16] (12.5%): IRelationAnalyzer.java
+
+Processing file [3/16] (18.8%): ICypherSymtab.java
+
+Processing file [4/16] (25.0%): ICreateAnalyzer.java
+
+Processing file [5/16] (31.2%): IClauseAnalyzer.java
+
+Processing file [6/16] (37.5%): INodeAnalyzer.java
+
+Processing file [7/16] (43.8%): ICypherTypeDescriptor.java
+
+Processing file [8/16] (50.0%): IIdentifierAnalyzer.java
+
+Processing file [9/16] (56.2%): IWithAnalyzer.java
+
+Processing file [10/16] (62.5%): IMapDescriptor.java
+
+Processing file [11/16] (68.8%): IReturnAnalyzer.java
+
+Processing file [12/16] (75.0%): IListDescriptor.java
+
+Processing file [13/16] (81.2%): IContextInfo.java
+
+Processing file [14/16] (87.5%): IAliasAnalyzer.java
+
+Processing file [15/16] (93.8%): IMergeAnalyzer.java
+
+Processing file [16/16] (100.0%): IUnwindAnalyzer.java
+
+Processing file [1/1] (100.0%): get_coverage.py
+
+Processing file [1/14] (7.1%): ClauseVisitor.java
+
+Processing file [2/14] (14.3%): BasicPatternGenerator.java
+
+Processing file [3/14] (21.4%): IQueryGenerator.java
+
+Processing file [4/14] (28.6%): IAliasGenerator.java
+
+Processing file [5/14] (35.7%): BasicListGenerator.java
+
+Processing file [6/14] (42.9%): IIdentifierBuilder.java
+
+Processing file [7/14] (50.0%): IListGenerator.java
+
+Processing file [8/14] (57.1%): IConditionGenerator.java
+
+Processing file [9/14] (64.3%): QueryFiller.java
+
+Processing file [10/14] (71.4%): BasicConditionGenerator.java
+
+Processing file [11/14] (78.6%): IPatternGenerator.java
+
+Processing file [12/14] (85.7%): IContext.java
+
+Processing file [13/14] (92.9%): IGraphGenerator.java
+
+Processing file [14/14] (100.0%): BasicAliasGenerator.java
+
+Processing file [1/3] (33.3%): DatabaseCrashException.java
+
+Processing file [2/3] (66.7%): MustRestartDatabaseException.java
+
+Processing file [3/3] (100.0%): ResultMismatchException.java
+
+Processing file [1/6] (16.7%): CompositeProvider.java
+
+Processing file [2/6] (33.3%): CompositePerformanceProvider.java
+
+Processing file [3/6] (50.0%): CompositeGlobalState.java
+
+Processing file [4/6] (66.7%): CompositeConnection.java
+
+Processing file [5/6] (83.3%): CompositeSchema.java
+
+Processing file [6/6] (100.0%): CompositeOptions.java
+
+Processing file [1/6] (16.7%): CompositePurePerformanceOracle.java
+
+Processing file [2/6] (33.3%): CompositePerformanceOracle.java
+
+Processing file [3/6] (50.0%): CompositeMCTSOracle.java
+
+Processing file [4/6] (66.7%): CompositeGuidedDifferentialOracle.java
+
+Processing file [5/6] (83.3%): CompositeDifferentialOracle.java
+
+Processing file [6/6] (100.0%): CompositeAlwaysTrueOracle.java
+
+Processing file [1/3] (33.3%): CompositeSchemaGenerator.java
+
+Processing file [2/3] (66.7%): CompositeGraphGenerator.java
+
+Processing file [3/3] (100.0%): CompositePatternBasedGraphGenerator.java
+
+Processing file [1/1] (100.0%): DBMSCommon.java
+
+Processing file [1/2] (50.0%): CompositeTestOracle.java
+
+Processing file [2/2] (100.0%): TestOracle.java
+
+Processing file [1/6] (16.7%): AbstractSchema.java
+
+Processing file [2/6] (33.3%): AbstractRowValue.java
+
+Processing file [3/6] (50.0%): AbstractTable.java
+
+Processing file [4/6] (66.7%): TableIndex.java
+
+Processing file [5/6] (83.3%): AbstractTableColumn.java
+
+Processing file [6/6] (100.0%): AbstractTables.java
+
+Processing file [1/3] (33.3%): LoggedString.java
+
+Processing file [2/3] (66.7%): LoggableFactory.java
+
+Processing file [3/3] (100.0%): Loggable.java
+
+Processing file [1/3] (33.3%): ExpectedErrors.java
+
+Processing file [2/3] (66.7%): Query.java
+
+Processing file [3/3] (100.0%): GDSmithResultSet.java
+
+Processing file [1/5] (20.0%): ArcadeDBSchema.java
+
+Processing file [2/5] (40.0%): ArcadeDBProvider.java
+
+Processing file [3/5] (60.0%): ArcadeDBGlobalState.java
+
+Processing file [4/5] (80.0%): ArcadeDBConnection.java
+
+Processing file [5/5] (100.0%): ArcadeDBOptions.java
+
+Processing file [1/1] (100.0%): ArcadeDBAlwaysTrueOracle.java
+
+Processing file [1/2] (50.0%): ArcadeDBGraphGenerator.java
+
+Processing file [2/2] (100.0%): ArcadeDBSchemaGenerator.java
+
+Processing file [1/5] (20.0%): AgensGraphOptions.java
+
+Processing file [2/5] (40.0%): AgensGraphGlobalState.java
+
+Processing file [3/5] (60.0%): AgensGraphConnection.java
+
+Processing file [4/5] (80.0%): AgensGraphProvider.java
+
+Processing file [5/5] (100.0%): AgensGraphSchema.java
+
+Processing file [1/1] (100.0%): AgensGraphAlwaysTrueOracle.java
+
+Processing file [1/2] (50.0%): AgensGraphGraphGenerator.java
+
+Processing file [2/2] (100.0%): AgensGraphSchemaGenerator.java
+
+Processing file [1/4] (25.0%): JanusConnection.java
+
+Processing file [2/4] (50.0%): JanusGlobalState.java
+
+Processing file [3/4] (75.0%): JanusOptions.java
+
+Processing file [4/4] (100.0%): JanusProvider.java
+
+Processing file [1/1] (100.0%): JanusSmithCrashOracle.java
+
+Processing file [1/3] (33.3%): JanusGraphGenerator.java
+
+Processing file [2/3] (66.7%): JanusNodeGenerator.java
+
+Processing file [3/3] (100.0%): JanusSchemaGenerator.java
+
+Processing file [1/1] (100.0%): JanusSchema.java
+
+Processing file [1/2] (50.0%): TreeNode.java
+
+Processing file [2/2] (100.0%): NewThreadTemo.java
+
+Processing file [1/6] (16.7%): MemGraphSchema.java
+
+Processing file [2/6] (33.3%): MemGraphOptions.java
+
+Processing file [3/6] (50.0%): MemGraphProvider.java
+
+Processing file [4/6] (66.7%): MemGraphConnection.java
+
+Processing file [5/6] (83.3%): MemGraphDriverManager.java
+
+Processing file [6/6] (100.0%): MemGraphGlobalState.java
+
+Processing file [1/1] (100.0%): MemGraphAlwaysTrueOracle.java
+
+Processing file [1/2] (50.0%): MemGraphSchemaGenerator.java
+
+Processing file [2/2] (100.0%): MemGraphGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/gen/MemGraphSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/gen/MemGraphGraphGenerator.java
+======> Building file/class/method entities
+======> Scanning for method calls
+Starting scanning project to find related methods...
+
+Scanning for method calls in [1/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/test/gdsmith/neo4j/gen/Neo4jSchemaGeneratorTest.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/test/gdsmith/neo4j/gen/Neo4jSchemaGeneratorTest.java
+
+Scanning for method calls in [2/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/test/gdsmith/neo4j/gen/Neo4jJDBCTest.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/test/gdsmith/neo4j/gen/Neo4jJDBCTest.java
+
+Scanning for method calls in [3/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IgnoreMeException.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IgnoreMeException.java
+
+Scanning for method calls in [4/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/ProviderAdapter.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/ProviderAdapter.java
+
+Scanning for method calls in [5/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/GlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/GlobalState.java
+
+Scanning for method calls in [6/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/Randomly.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/Randomly.java
+Warning: Truncating embedding text for class Randomly from 16138 to 8000 chars
+
+Scanning for method calls in [7/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/OracleFactory.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/OracleFactory.java
+
+Scanning for method calls in [8/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IGeneratorFactory.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IGeneratorFactory.java
+
+Scanning for method calls in [9/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IDatabaseTestingAlgorithm.java
+Skip processing test file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IDatabaseTestingAlgorithm.java
+
+Scanning for method calls in [10/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/LikeImplementationHelper.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/LikeImplementationHelper.java
+
+Scanning for method calls in [11/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/Main.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/Main.java
+Warning: Truncating embedding text for class Main from 28676 to 8000 chars
+Warning: Truncating embedding text for method executeMain from 7198 to 4000 chars
+Warning: Truncating embedding text for method startProgressMonitor from 5504 to 4000 chars
+Warning: Truncating embedding text for class StateLogger from 8109 to 8000 chars
+
+Scanning for method calls in [12/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/AbstractAction.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/AbstractAction.java
+
+Scanning for method calls in [13/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/StatementExecutor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/StatementExecutor.java
+
+Scanning for method calls in [14/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/StateToReproduce.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/StateToReproduce.java
+
+Scanning for method calls in [15/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/DatabaseProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/DatabaseProvider.java
+
+Scanning for method calls in [16/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IGraphGeneratorFactory.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/IGraphGeneratorFactory.java
+
+Scanning for method calls in [17/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/ExecutionTimer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/ExecutionTimer.java
+
+Scanning for method calls in [18/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/GDSmithDBConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/GDSmithDBConnection.java
+
+Scanning for method calls in [19/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/MainOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/MainOptions.java
+Warning: Truncating embedding text for class MainOptions from 8488 to 8000 chars
+
+Scanning for method calls in [20/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/DBMSSpecificOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/DBMSSpecificOptions.java
+
+Scanning for method calls in [21/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/gremlin/CypherBasedGremlinQueryAdapter.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/gremlin/CypherBasedGremlinQueryAdapter.java
+
+Scanning for method calls in [22/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/gremlin/CypherGremlinTranslater.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/gremlin/CypherGremlinTranslater.java
+
+Scanning for method calls in [23/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jDriverManager.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jDriverManager.java
+
+Scanning for method calls in [24/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jOptions.java
+
+Scanning for method calls in [25/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jConnection.java
+
+Scanning for method calls in [26/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jGlobalState.java
+
+Scanning for method calls in [27/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jProxyConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jProxyConnection.java
+
+Scanning for method calls in [28/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jJDBCConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jJDBCConnection.java
+
+Scanning for method calls in [29/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/Neo4jProvider.java
+
+Scanning for method calls in [30/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/oracle/Neo4jSmithCrashOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/oracle/Neo4jSmithCrashOracle.java
+Warning: Truncating embedding text for method check from 5182 to 4000 chars
+
+Scanning for method calls in [31/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/oracle/Neo4jNoRecOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/oracle/Neo4jNoRecOracle.java
+
+Scanning for method calls in [32/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/oracle/examples/Neo4jAlwaysTrueOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/oracle/examples/Neo4jAlwaysTrueOracle.java
+
+Scanning for method calls in [33/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/gen/Neo4jSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/gen/Neo4jSchemaGenerator.java
+
+Scanning for method calls in [34/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/gen/Neo4jNodeGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/gen/Neo4jNodeGenerator.java
+
+Scanning for method calls in [35/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/gen/Neo4jGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/gen/Neo4jGraphGenerator.java
+
+Scanning for method calls in [36/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/schema/Neo4jSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/neo4j/schema/Neo4jSchema.java
+
+Scanning for method calls in [37/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphProvider.java
+
+Scanning for method calls in [38/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphOptions.java
+
+Scanning for method calls in [39/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphGlobalState.java
+
+Scanning for method calls in [40/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphSchema.java
+
+Scanning for method calls in [41/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/PrintGraphConnection.java
+
+Scanning for method calls in [42/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/oracle/PrintGraphAlwaysTrueOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/PrintGraph/oracle/PrintGraphAlwaysTrueOracle.java
+
+Scanning for method calls in [43/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphOptions.java
+
+Scanning for method calls in [44/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphProvider.java
+
+Scanning for method calls in [45/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphSchema.java
+
+Scanning for method calls in [46/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphGlobalState.java
+
+Scanning for method calls in [47/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/RedisGraphConnection.java
+
+Scanning for method calls in [48/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/oracle/RedisGraphAlwaysTrueOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/oracle/RedisGraphAlwaysTrueOracle.java
+
+Scanning for method calls in [49/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/gen/RedisGraphSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/gen/RedisGraphSchemaGenerator.java
+
+Scanning for method calls in [50/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/gen/RedisGraphGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/redisGraph/gen/RedisGraphGraphGenerator.java
+
+Scanning for method calls in [51/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerOptions.java
+
+Scanning for method calls in [52/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerGlobalState.java
+
+Scanning for method calls in [53/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerConnection.java
+
+Scanning for method calls in [54/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/TinkerProvider.java
+
+Scanning for method calls in [55/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/oracle/TinkerSmithCrashOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/oracle/TinkerSmithCrashOracle.java
+Warning: Truncating embedding text for method check from 4121 to 4000 chars
+
+Scanning for method calls in [56/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/gen/TinkerGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/gen/TinkerGraphGenerator.java
+
+Scanning for method calls in [57/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/gen/TinkerSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/gen/TinkerSchemaGenerator.java
+
+Scanning for method calls in [58/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/gen/TinkerNodeGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/gen/TinkerNodeGenerator.java
+
+Scanning for method calls in [59/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/schema/TinkerSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/tinkerGraph/schema/TinkerSchema.java
+
+Scanning for method calls in [60/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherQueryProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherQueryProvider.java
+
+Scanning for method calls in [61/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ICypherSupport.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ICypherSupport.java
+
+Scanning for method calls in [62/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherQueryAdapter.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherQueryAdapter.java
+
+Scanning for method calls in [63/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherProviderAdapter.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherProviderAdapter.java
+
+Scanning for method calls in [64/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherLoggableFactory.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherLoggableFactory.java
+
+Scanning for method calls in [65/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ICypherSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ICypherSchema.java
+
+Scanning for method calls in [66/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherConnection.java
+
+Scanning for method calls in [67/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/CypherGlobalState.java
+
+Scanning for method calls in [68/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ManualClauseSequence.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ManualClauseSequence.java
+
+Scanning for method calls in [69/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/CypherTypeDescriptor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/CypherTypeDescriptor.java
+
+Scanning for method calls in [70/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/With.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/With.java
+
+Scanning for method calls in [71/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Merge.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Merge.java
+
+Scanning for method calls in [72/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Label.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Label.java
+
+Scanning for method calls in [73/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/IClauseSequenceBuilder.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/IClauseSequenceBuilder.java
+
+Scanning for method calls in [74/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Property.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Property.java
+
+Scanning for method calls in [75/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Alias.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Alias.java
+
+Scanning for method calls in [76/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ClauseSequence.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ClauseSequence.java
+Warning: Truncating embedding text for class ClauseSequence from 9128 to 8000 chars
+
+Scanning for method calls in [77/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Pattern.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Pattern.java
+
+Scanning for method calls in [78/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/RelationIdentifier.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/RelationIdentifier.java
+
+Scanning for method calls in [79/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/CypherClause.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/CypherClause.java
+
+Scanning for method calls in [80/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Create.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Create.java
+
+Scanning for method calls in [81/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/NodeIdentifier.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/NodeIdentifier.java
+
+Scanning for method calls in [82/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Ret.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Ret.java
+
+Scanning for method calls in [83/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/RelationType.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/RelationType.java
+
+Scanning for method calls in [84/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/MapDescriptor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/MapDescriptor.java
+
+Scanning for method calls in [85/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Symtab.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Symtab.java
+Warning: Truncating embedding text for class Symtab from 10983 to 8000 chars
+
+Scanning for method calls in [86/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Match.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Match.java
+
+Scanning for method calls in [87/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/CypherType.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/CypherType.java
+
+Scanning for method calls in [88/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/RelationAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/RelationAnalyzer.java
+
+Scanning for method calls in [89/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Unwind.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Unwind.java
+
+Scanning for method calls in [90/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Return.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/Return.java
+
+Scanning for method calls in [91/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/AliasAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/AliasAnalyzer.java
+
+Scanning for method calls in [92/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/NodeAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/NodeAnalyzer.java
+
+Scanning for method calls in [93/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ListDescriptor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ListDescriptor.java
+
+Scanning for method calls in [94/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ContextInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/ContextInfo.java
+
+Scanning for method calls in [95/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/BinaryLogicalExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/BinaryLogicalExpression.java
+
+Scanning for method calls in [96/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/Star.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/Star.java
+
+Scanning for method calls in [97/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/BinaryNumberExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/BinaryNumberExpression.java
+
+Scanning for method calls in [98/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GraphObjectVal.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GraphObjectVal.java
+
+Scanning for method calls in [99/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/ExprVal.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/ExprVal.java
+
+Scanning for method calls in [100/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CreateMapExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CreateMapExpression.java
+
+Scanning for method calls in [101/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/StringMatchingExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/StringMatchingExpression.java
+
+Scanning for method calls in [102/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/IdentifierExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/IdentifierExpression.java
+
+Scanning for method calls in [103/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CypherExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CypherExpression.java
+
+Scanning for method calls in [104/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/StringCatExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/StringCatExpression.java
+
+Scanning for method calls in [105/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/ConstExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/ConstExpression.java
+
+Scanning for method calls in [106/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CallExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CallExpression.java
+
+Scanning for method calls in [107/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GetListSliceExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GetListSliceExpression.java
+
+Scanning for method calls in [108/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/SingleLogicalExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/SingleLogicalExpression.java
+
+Scanning for method calls in [109/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CreateListExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/CreateListExpression.java
+
+Scanning for method calls in [110/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GetPropertyExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GetPropertyExpression.java
+
+Scanning for method calls in [111/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/BinaryComparisonExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/BinaryComparisonExpression.java
+
+Scanning for method calls in [112/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GetListElementExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/standard_ast/expr/GetListElementExpression.java
+
+Scanning for method calls in [113/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/LabelAdditionMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/LabelAdditionMutator.java
+
+Scanning for method calls in [114/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/ClauseRefillMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/ClauseRefillMutator.java
+
+Scanning for method calls in [115/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/MutatorType.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/MutatorType.java
+
+Scanning for method calls in [116/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/GraphMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/GraphMutator.java
+
+Scanning for method calls in [117/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/GraphCreatingMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/GraphCreatingMutator.java
+
+Scanning for method calls in [118/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/OptionalAdditionMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/OptionalAdditionMutator.java
+
+Scanning for method calls in [119/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/ClauseExpansionMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/ClauseExpansionMutator.java
+
+Scanning for method calls in [120/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/WhereRemovalMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/WhereRemovalMutator.java
+
+Scanning for method calls in [121/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/OptionalRemovalMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/OptionalRemovalMutator.java
+
+Scanning for method calls in [122/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/LimitShrinkingMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/LimitShrinkingMutator.java
+
+Scanning for method calls in [123/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/WhereRefillMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/WhereRefillMutator.java
+
+Scanning for method calls in [124/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/ClauseScissorsMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/ClauseScissorsMutator.java
+
+Scanning for method calls in [125/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/LimitExpandingMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/LimitExpandingMutator.java
+
+Scanning for method calls in [126/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/PropertyAdditionMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/PropertyAdditionMutator.java
+
+Scanning for method calls in [127/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/WhereAdditionMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/WhereAdditionMutator.java
+
+Scanning for method calls in [128/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/PatternAdditionMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/PatternAdditionMutator.java
+
+Scanning for method calls in [129/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/IClauseMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/IClauseMutator.java
+
+Scanning for method calls in [130/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/OrRemovalMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/OrRemovalMutator.java
+
+Scanning for method calls in [131/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/ExpressionVisitor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/ExpressionVisitor.java
+Warning: Truncating embedding text for class ExpressionVisitor from 12866 to 8000 chars
+Warning: Truncating embedding text for method visitExpression from 5804 to 4000 chars
+
+Scanning for method calls in [132/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/StringMatchReductionMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/StringMatchReductionMutator.java
+
+Scanning for method calls in [133/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/ComparisonReverseMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/ComparisonReverseMutator.java
+
+Scanning for method calls in [134/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/AndRemovalMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/AndRemovalMutator.java
+
+Scanning for method calls in [135/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/ConditionReverseMutator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/mutation/expression/ConditionReverseMutator.java
+
+Scanning for method calls in [136/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/DifferentialOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/DifferentialOracle.java
+
+Scanning for method calls in [137/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/ManualPerformanceOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/ManualPerformanceOracle.java
+
+Scanning for method calls in [138/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/NoRecOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/NoRecOracle.java
+Warning: Truncating embedding text for class NoRecOracle from 8299 to 8000 chars
+Warning: Truncating embedding text for method check from 7916 to 4000 chars
+
+Scanning for method calls in [139/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/ManualDifferentialOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/ManualDifferentialOracle.java
+
+Scanning for method calls in [140/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/DifferentialNonEmptyBranchOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/oracle/DifferentialNonEmptyBranchOracle.java
+
+Scanning for method calls in [141/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/SimpleTestingAlgorithm.java
+Skip processing test file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/SimpleTestingAlgorithm.java
+
+Scanning for method calls in [142/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared2AlgorithmNew.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared2AlgorithmNew.java
+
+Scanning for method calls in [143/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/CoverageGuidedAlgorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/CoverageGuidedAlgorithm.java
+
+Scanning for method calls in [144/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared3Algorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared3Algorithm.java
+
+Scanning for method calls in [145/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared4Algorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared4Algorithm.java
+
+Scanning for method calls in [146/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared3AlgorithmNew.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared3AlgorithmNew.java
+
+Scanning for method calls in [147/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/SimpleTestingAlgorithmBase.java
+Skip processing test file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/SimpleTestingAlgorithmBase.java
+
+Scanning for method calls in [148/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/CypherTestingAlgorithm.java
+Skip processing test file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/CypherTestingAlgorithm.java
+
+Scanning for method calls in [149/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/EnumerationAlgorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/EnumerationAlgorithm.java
+
+Scanning for method calls in [150/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/ManualDifferentialAlgorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/ManualDifferentialAlgorithm.java
+
+Scanning for method calls in [151/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/ManualPerformanceAlgorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/ManualPerformanceAlgorithm.java
+
+Scanning for method calls in [152/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/NonEmptyAlgorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/NonEmptyAlgorithm.java
+
+Scanning for method calls in [153/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared5Algorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared5Algorithm.java
+
+Scanning for method calls in [154/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared1Algorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared1Algorithm.java
+
+Scanning for method calls in [155/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared1AlgorithmNew.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared1AlgorithmNew.java
+
+Scanning for method calls in [156/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared2Algorithm.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/algorithm/Compared2Algorithm.java
+
+Scanning for method calls in [157/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/EnumerationGraphManager.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/EnumerationGraphManager.java
+
+Scanning for method calls in [158/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/AbstractNode.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/AbstractNode.java
+
+Scanning for method calls in [159/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/SubgraphTreeNodeInstance.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/SubgraphTreeNodeInstance.java
+
+Scanning for method calls in [160/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/EnumerationSeq.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/EnumerationSeq.java
+
+Scanning for method calls in [161/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/SubgraphTreeNode.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/SubgraphTreeNode.java
+
+Scanning for method calls in [162/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/GraphManager.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/GraphManager.java
+Warning: Truncating embedding text for class GraphManager from 12914 to 8000 chars
+
+Scanning for method calls in [163/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/CypherSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/CypherSchemaGenerator.java
+
+Scanning for method calls in [164/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/SubgraphManager.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/SubgraphManager.java
+Warning: Truncating embedding text for class SubgraphManager from 44454 to 8000 chars
+Warning: Truncating embedding text for method generateMerge from 4199 to 4000 chars
+Warning: Truncating embedding text for method generateSubgraphMutation from 23054 to 4000 chars
+
+Scanning for method calls in [165/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/AbstractRelationship.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/AbstractRelationship.java
+
+Scanning for method calls in [166/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/Subgraph.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/Subgraph.java
+Warning: Truncating embedding text for class Subgraph from 11274 to 8000 chars
+
+Scanning for method calls in [167/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/alias/EnumerationAliasGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/alias/EnumerationAliasGenerator.java
+Warning: Truncating embedding text for class EnumerationAliasGenerator from 18500 to 8000 chars
+Warning: Truncating embedding text for method generateReturnAlias from 7516 to 4000 chars
+Warning: Truncating embedding text for method generateWithAlias from 10607 to 4000 chars
+
+Scanning for method calls in [168/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/alias/RandomAliasGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/alias/RandomAliasGenerator.java
+Warning: Truncating embedding text for class RandomAliasGenerator from 23062 to 8000 chars
+Warning: Truncating embedding text for method generateReturnAlias from 11500 to 4000 chars
+Warning: Truncating embedding text for method generateWithAlias from 11227 to 4000 chars
+
+Scanning for method calls in [169/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/alias/GuidedAliasGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/alias/GuidedAliasGenerator.java
+Warning: Truncating embedding text for class GuidedAliasGenerator from 23424 to 8000 chars
+Warning: Truncating embedding text for method generateReturnAlias from 11498 to 4000 chars
+Warning: Truncating embedding text for method generateWithAlias from 11485 to 4000 chars
+
+Scanning for method calls in [170/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/TreeBasedGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/TreeBasedGraphGenerator.java
+
+Scanning for method calls in [171/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/TreeBasedGraphGeneratorCompared.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/TreeBasedGraphGeneratorCompared.java
+
+Scanning for method calls in [172/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/SlidingGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/SlidingGraphGenerator.java
+
+Scanning for method calls in [173/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/ManualGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/ManualGraphGenerator.java
+
+Scanning for method calls in [174/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/RandomGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/RandomGraphGenerator.java
+Warning: Truncating embedding text for method createGraph from 5768 to 4000 chars
+
+Scanning for method calls in [175/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/EnumerationGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/graph/EnumerationGraphGenerator.java
+
+Scanning for method calls in [176/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/EnumerationExpressionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/EnumerationExpressionGenerator.java
+
+Scanning for method calls in [177/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/NonEmptyExpressionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/NonEmptyExpressionGenerator.java
+Warning: Truncating embedding text for method booleanExpression from 6145 to 4000 chars
+
+Scanning for method calls in [178/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/NewRandomExpressionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/NewRandomExpressionGenerator.java
+
+Scanning for method calls in [179/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/RandomExpressionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/expr/RandomExpressionGenerator.java
+
+Scanning for method calls in [180/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/StringMatchingAssertion.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/StringMatchingAssertion.java
+
+Scanning for method calls in [181/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/BooleanAssertion.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/BooleanAssertion.java
+
+Scanning for method calls in [182/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/ExpressionAssertion.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/ExpressionAssertion.java
+
+Scanning for method calls in [183/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/ComparisonAssertion.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/assertion/ComparisonAssertion.java
+
+Scanning for method calls in [184/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/condition/RandomConditionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/condition/RandomConditionGenerator.java
+
+Scanning for method calls in [185/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/condition/EnumerationConditionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/condition/EnumerationConditionGenerator.java
+
+Scanning for method calls in [186/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/condition/GuidedConditionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/condition/GuidedConditionGenerator.java
+
+Scanning for method calls in [187/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/list/EnumerationListGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/list/EnumerationListGenerator.java
+
+Scanning for method calls in [188/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/list/RandomListGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/list/RandomListGenerator.java
+
+Scanning for method calls in [189/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/list/GuidedListGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/list/GuidedListGenerator.java
+
+Scanning for method calls in [190/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/EnumerationPatternGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/EnumerationPatternGenerator.java
+
+Scanning for method calls in [191/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/SlidingPatternGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/SlidingPatternGenerator.java
+Warning: Truncating embedding text for class SlidingPatternGenerator from 9770 to 8000 chars
+
+Scanning for method calls in [192/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/RandomPatternGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/RandomPatternGenerator.java
+Warning: Truncating embedding text for class RandomPatternGenerator from 10478 to 8000 chars
+Warning: Truncating embedding text for method generateSinglePattern from 9147 to 4000 chars
+
+Scanning for method calls in [193/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/GuidedPatternGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/pattern/GuidedPatternGenerator.java
+Warning: Truncating embedding text for class GuidedPatternGenerator from 12382 to 8000 chars
+
+Scanning for method calls in [194/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/GraphGuidedQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/GraphGuidedQueryGenerator.java
+
+Scanning for method calls in [195/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/EnumerationQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/EnumerationQueryGenerator.java
+
+Scanning for method calls in [196/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/RandomCoverageQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/RandomCoverageQueryGenerator.java
+
+Scanning for method calls in [197/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/ModelBasedQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/ModelBasedQueryGenerator.java
+
+Scanning for method calls in [198/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SubgraphGuidedQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SubgraphGuidedQueryGenerator.java
+
+Scanning for method calls in [199/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SlidingQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SlidingQueryGenerator.java
+
+Scanning for method calls in [200/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/ManualQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/ManualQueryGenerator.java
+
+Scanning for method calls in [201/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/RandomQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/RandomQueryGenerator.java
+
+Scanning for method calls in [202/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/TreeBasedQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/TreeBasedQueryGenerator.java
+
+Scanning for method calls in [203/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/TreeBasedQueryGeneratorCompared2.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/TreeBasedQueryGeneratorCompared2.java
+
+Scanning for method calls in [204/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SlidingQueryGeneratorCompared.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SlidingQueryGeneratorCompared.java
+
+Scanning for method calls in [205/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SlidingQueryGeneratorCompared2.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/SlidingQueryGeneratorCompared2.java
+
+Scanning for method calls in [206/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/AdvancedQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/AdvancedQueryGenerator.java
+Warning: Truncating embedding text for class AdvancedQueryGenerator from 8631 to 8000 chars
+
+Scanning for method calls in [207/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/TreeBasedQueryGeneratorCompared.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/TreeBasedQueryGeneratorCompared.java
+
+Scanning for method calls in [208/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/GuidedQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/gen/query/GuidedQueryGenerator.java
+
+Scanning for method calls in [209/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IPatternInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IPatternInfo.java
+
+Scanning for method calls in [210/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/ILabelInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/ILabelInfo.java
+
+Scanning for method calls in [211/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IFunctionInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IFunctionInfo.java
+
+Scanning for method calls in [212/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IPatternElementInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IPatternElementInfo.java
+
+Scanning for method calls in [213/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/CypherSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/CypherSchema.java
+Warning: Truncating embedding text for class CypherSchema from 12444 to 8000 chars
+
+Scanning for method calls in [214/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IRelationTypeInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IRelationTypeInfo.java
+
+Scanning for method calls in [215/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IParamInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IParamInfo.java
+
+Scanning for method calls in [216/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IPropertyInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/schema/IPropertyInfo.java
+
+Scanning for method calls in [217/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICypherClause.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICypherClause.java
+
+Scanning for method calls in [218/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IType.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IType.java
+
+Scanning for method calls in [219/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICopyable.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICopyable.java
+
+Scanning for method calls in [220/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IExpression.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IExpression.java
+
+Scanning for method calls in [221/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IWith.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IWith.java
+
+Scanning for method calls in [222/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICreate.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICreate.java
+
+Scanning for method calls in [223/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IMerge.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IMerge.java
+
+Scanning for method calls in [224/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ILabel.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ILabel.java
+
+Scanning for method calls in [225/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IAlias.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IAlias.java
+
+Scanning for method calls in [226/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IProperty.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IProperty.java
+
+Scanning for method calls in [227/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/INodeIdentifier.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/INodeIdentifier.java
+
+Scanning for method calls in [228/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IIdentifier.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IIdentifier.java
+
+Scanning for method calls in [229/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IClauseSequence.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IClauseSequence.java
+
+Scanning for method calls in [230/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IReturn.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IReturn.java
+
+Scanning for method calls in [231/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ITextRepresentation.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ITextRepresentation.java
+
+Scanning for method calls in [232/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IPatternElement.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IPatternElement.java
+
+Scanning for method calls in [233/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IPattern.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IPattern.java
+
+Scanning for method calls in [234/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IMatch.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IMatch.java
+
+Scanning for method calls in [235/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IRet.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IRet.java
+
+Scanning for method calls in [236/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICypherType.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/ICypherType.java
+
+Scanning for method calls in [237/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/Direction.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/Direction.java
+
+Scanning for method calls in [238/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IRelationIdentifier.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IRelationIdentifier.java
+
+Scanning for method calls in [239/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IUnwind.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/IUnwind.java
+
+Scanning for method calls in [240/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IMatchAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IMatchAnalyzer.java
+
+Scanning for method calls in [241/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IRelationAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IRelationAnalyzer.java
+
+Scanning for method calls in [242/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/ICypherSymtab.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/ICypherSymtab.java
+
+Scanning for method calls in [243/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/ICreateAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/ICreateAnalyzer.java
+
+Scanning for method calls in [244/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IClauseAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IClauseAnalyzer.java
+
+Scanning for method calls in [245/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/INodeAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/INodeAnalyzer.java
+
+Scanning for method calls in [246/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/ICypherTypeDescriptor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/ICypherTypeDescriptor.java
+
+Scanning for method calls in [247/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IIdentifierAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IIdentifierAnalyzer.java
+
+Scanning for method calls in [248/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IWithAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IWithAnalyzer.java
+
+Scanning for method calls in [249/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IMapDescriptor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IMapDescriptor.java
+
+Scanning for method calls in [250/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IReturnAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IReturnAnalyzer.java
+
+Scanning for method calls in [251/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IListDescriptor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IListDescriptor.java
+
+Scanning for method calls in [252/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IContextInfo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IContextInfo.java
+
+Scanning for method calls in [253/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IAliasAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IAliasAnalyzer.java
+
+Scanning for method calls in [254/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IMergeAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IMergeAnalyzer.java
+
+Scanning for method calls in [255/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IUnwindAnalyzer.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/ast/analyzer/IUnwindAnalyzer.java
+
+Scanning for method calls in [256/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/coverage/get_coverage.py
+
+Scanning for method calls in [257/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/ClauseVisitor.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/ClauseVisitor.java
+
+Scanning for method calls in [258/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicPatternGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicPatternGenerator.java
+
+Scanning for method calls in [259/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IQueryGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IQueryGenerator.java
+
+Scanning for method calls in [260/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IAliasGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IAliasGenerator.java
+
+Scanning for method calls in [261/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicListGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicListGenerator.java
+
+Scanning for method calls in [262/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IIdentifierBuilder.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IIdentifierBuilder.java
+
+Scanning for method calls in [263/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IListGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IListGenerator.java
+
+Scanning for method calls in [264/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IConditionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IConditionGenerator.java
+
+Scanning for method calls in [265/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/QueryFiller.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/QueryFiller.java
+
+Scanning for method calls in [266/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicConditionGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicConditionGenerator.java
+
+Scanning for method calls in [267/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IPatternGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IPatternGenerator.java
+
+Scanning for method calls in [268/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IContext.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IContext.java
+
+Scanning for method calls in [269/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/IGraphGenerator.java
+
+Scanning for method calls in [270/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicAliasGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/cypher/dsl/BasicAliasGenerator.java
+
+Scanning for method calls in [271/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/exceptions/DatabaseCrashException.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/exceptions/DatabaseCrashException.java
+
+Scanning for method calls in [272/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/exceptions/MustRestartDatabaseException.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/exceptions/MustRestartDatabaseException.java
+
+Scanning for method calls in [273/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/exceptions/ResultMismatchException.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/exceptions/ResultMismatchException.java
+
+Scanning for method calls in [274/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeProvider.java
+
+Scanning for method calls in [275/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositePerformanceProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositePerformanceProvider.java
+
+Scanning for method calls in [276/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeGlobalState.java
+
+Scanning for method calls in [277/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeConnection.java
+
+Scanning for method calls in [278/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeSchema.java
+
+Scanning for method calls in [279/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/CompositeOptions.java
+
+Scanning for method calls in [280/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositePurePerformanceOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositePurePerformanceOracle.java
+
+Scanning for method calls in [281/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositePerformanceOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositePerformanceOracle.java
+
+Scanning for method calls in [282/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeMCTSOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeMCTSOracle.java
+Warning: Truncating embedding text for class CompositeMCTSOracle from 11402 to 8000 chars
+Warning: Truncating embedding text for class TreeNode from 9966 to 8000 chars
+Warning: Truncating embedding text for method generateClauseSequence from 4082 to 4000 chars
+
+Scanning for method calls in [283/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeGuidedDifferentialOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeGuidedDifferentialOracle.java
+
+Scanning for method calls in [284/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeDifferentialOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeDifferentialOracle.java
+
+Scanning for method calls in [285/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeAlwaysTrueOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/oracle/CompositeAlwaysTrueOracle.java
+
+Scanning for method calls in [286/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/gen/CompositeSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/gen/CompositeSchemaGenerator.java
+Warning: Truncating embedding text for method generateSchemaObject from 5400 to 4000 chars
+
+Scanning for method calls in [287/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/gen/CompositeGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/gen/CompositeGraphGenerator.java
+Warning: Truncating embedding text for method createGraph from 5802 to 4000 chars
+
+Scanning for method calls in [288/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/gen/CompositePatternBasedGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/composite/gen/CompositePatternBasedGraphGenerator.java
+
+Scanning for method calls in [289/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/DBMSCommon.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/DBMSCommon.java
+
+Scanning for method calls in [290/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/oracle/CompositeTestOracle.java
+Skip processing test file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/oracle/CompositeTestOracle.java
+
+Scanning for method calls in [291/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/oracle/TestOracle.java
+Skip processing test file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/oracle/TestOracle.java
+
+Scanning for method calls in [292/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractSchema.java
+
+Scanning for method calls in [293/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractRowValue.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractRowValue.java
+
+Scanning for method calls in [294/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractTable.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractTable.java
+
+Scanning for method calls in [295/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/TableIndex.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/TableIndex.java
+
+Scanning for method calls in [296/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractTableColumn.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractTableColumn.java
+
+Scanning for method calls in [297/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractTables.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/schema/AbstractTables.java
+
+Scanning for method calls in [298/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/log/LoggedString.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/log/LoggedString.java
+
+Scanning for method calls in [299/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/log/LoggableFactory.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/log/LoggableFactory.java
+
+Scanning for method calls in [300/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/log/Loggable.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/log/Loggable.java
+
+Scanning for method calls in [301/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/query/ExpectedErrors.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/query/ExpectedErrors.java
+
+Scanning for method calls in [302/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/query/Query.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/query/Query.java
+
+Scanning for method calls in [303/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/query/GDSmithResultSet.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/common/query/GDSmithResultSet.java
+
+Scanning for method calls in [304/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBSchema.java
+
+Scanning for method calls in [305/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBProvider.java
+
+Scanning for method calls in [306/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBGlobalState.java
+
+Scanning for method calls in [307/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBConnection.java
+
+Scanning for method calls in [308/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/ArcadeDBOptions.java
+
+Scanning for method calls in [309/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/oracle/ArcadeDBAlwaysTrueOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/oracle/ArcadeDBAlwaysTrueOracle.java
+
+Scanning for method calls in [310/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/gen/ArcadeDBGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/gen/ArcadeDBGraphGenerator.java
+Warning: Truncating embedding text for method generateGraph from 4665 to 4000 chars
+
+Scanning for method calls in [311/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/gen/ArcadeDBSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/arcadeDB/gen/ArcadeDBSchemaGenerator.java
+
+Scanning for method calls in [312/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphOptions.java
+
+Scanning for method calls in [313/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphGlobalState.java
+
+Scanning for method calls in [314/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphConnection.java
+
+Scanning for method calls in [315/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphProvider.java
+
+Scanning for method calls in [316/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/AgensGraphSchema.java
+
+Scanning for method calls in [317/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/oracle/AgensGraphAlwaysTrueOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/oracle/AgensGraphAlwaysTrueOracle.java
+
+Scanning for method calls in [318/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/gen/AgensGraphGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/gen/AgensGraphGraphGenerator.java
+Warning: Truncating embedding text for method generateGraph from 4702 to 4000 chars
+
+Scanning for method calls in [319/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/gen/AgensGraphSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/agensGraph/gen/AgensGraphSchemaGenerator.java
+
+Scanning for method calls in [320/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusConnection.java
+
+Scanning for method calls in [321/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusGlobalState.java
+
+Scanning for method calls in [322/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusOptions.java
+
+Scanning for method calls in [323/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/JanusProvider.java
+
+Scanning for method calls in [324/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/oracle/JanusSmithCrashOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/oracle/JanusSmithCrashOracle.java
+Warning: Truncating embedding text for method check from 4121 to 4000 chars
+
+Scanning for method calls in [325/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/gen/JanusGraphGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/gen/JanusGraphGenerator.java
+
+Scanning for method calls in [326/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/gen/JanusNodeGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/gen/JanusNodeGenerator.java
+
+Scanning for method calls in [327/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/gen/JanusSchemaGenerator.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/gen/JanusSchemaGenerator.java
+
+Scanning for method calls in [328/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/schema/JanusSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/janusGraph/schema/JanusSchema.java
+
+Scanning for method calls in [329/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/performance/TreeNode.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/performance/TreeNode.java
+
+Scanning for method calls in [330/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/performance/NewThreadTemo.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/performance/NewThreadTemo.java
+
+Scanning for method calls in [331/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphSchema.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphSchema.java
+
+Scanning for method calls in [332/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphOptions.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphOptions.java
+
+Scanning for method calls in [333/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphProvider.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphProvider.java
+
+Scanning for method calls in [334/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphConnection.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphConnection.java
+
+Scanning for method calls in [335/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphDriverManager.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphDriverManager.java
+
+Scanning for method calls in [336/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphGlobalState.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/MemGraphGlobalState.java
+
+Scanning for method calls in [337/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/oracle/MemGraphAlwaysTrueOracle.java
+Processing file: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/oracle/MemGraphAlwaysTrueOracle.java
+
+Scanning for method calls in [338/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/gen/MemGraphSchemaGenerator.java
+File /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/gen/MemGraphSchemaGenerator.java already processed, skipping
+
+Scanning for method calls in [339/339]: /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/gen/MemGraphGraphGenerator.java
+File /Users/y/Desktop/Conetxt_KG/repos/GDsmith/src/main/java/org/example/gdsmith/memGraph/gen/MemGraphGraphGenerator.java already processed, skipping
+Error parsing Java file ../repos/GDsmith/src/main/java/org/example/gdsmith/cypher/coverage/get_coverage.py for CompilationUnit: 
+Analyze method calls: Could not get CompilationUnit for ../repos/GDsmith/src/main/java/org/example/gdsmith/cypher/coverage/get_coverage.py
+Analysis statistics: {'files': 339, 'classes': 331, 'methods': 1866, 'call_rels': 1688}
+Cleaning temporary files...
+Temporary files cleaned
+Cleanup completed
+Results saved to: /Users/y/Desktop/Conetxt_KG/output/GDsmith_analysis.json
+Completed: 2025-11-09 14:06:22
+Total duration: 0:02:15.942155

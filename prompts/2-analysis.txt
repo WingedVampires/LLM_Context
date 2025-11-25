@@ -1,0 +1,24 @@
+You will receive:
+
+1. An issue description.
+2. The Cypher reasoning and queries used to search the graph.
+3. The retrieval results from the graph database.
+
+The retrieval results are provided in the following format:
+## Retrieval Results
+### Result <id>
+- query_id: <id of the Cypher/Natural Language query that produced this result>
+- <Searched Key>: <Searched Value>
+
+There may be multiple results:
+
+```text
+## Cypher Retrieval Results
+{cypher_search_result}
+
+## Natural Language Retrieval Results
+{natural_language_search_result}
+```
+Let's analyze collected context first and based on your analysis, answer below questions one by one:
+1. do we need more context: construct new cypher queries to get more context of the project. (say 'no' if you don't need more context)
+2. is the information enough to answer the raw question. (say 'no' if you don't have enough information)
