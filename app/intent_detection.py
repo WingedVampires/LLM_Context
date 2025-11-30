@@ -15,6 +15,20 @@ def ask_ollama(prompts):
     res=r.json().get("message", {}).get("content", "").strip()
     return res
 
+def subquestion_split(query):
+    pm = PromptManager()
+    query_decomposer = pm.render(
+        "query_decomposer",
+        query=query
+    )
+    query_decomposer_messages=[{"role": "system", "content": query_decomposer["system"]},
+                {"role": "user", "content": query_decomposer["user"]}]
+    query_decomposer_output = ask_ollama(
+        prompts=query_decomposer_messages
+    )
+    return query_decomposer_output
+
+
 
 def intent_detection(query, rewritter:False):
     pm = PromptManager()
@@ -87,12 +101,6 @@ if __name__ == "__main__":
     "请找出 process_data 在整个项目中的调用位置，然后检查每个调用点是否都处理了空值。如果没有，请生成具体修改建议。",
     "我想把 upload 和 download 逻辑合并成一个 FileService，请分析一下影响范围，并生成初步的设计草案。",
     "在用户注册时加入验证码校验，请帮我列出所有需要动的文件、函数，以及依赖链。",
-
-    # Query2Cypher type
-    "列出所有调用 parse_data 的函数。",
-    "找出 utils.py 中所有包含“config”字样的函数。",
-    "展示 main.py 中 run 函数依赖的所有文件。",
-    "controllers/ 目录下哪些函数最终调用到了 services/user_service.py？"
 ]
     for query in queries:
         intent_dict=intent_detection(query)

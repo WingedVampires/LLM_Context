@@ -1,6 +1,6 @@
 from typing import Optional
 
-from .intent_detection import intent_detection
+from .intent_detection import intent_detection,subquestion_split
 
 import torch
 from fastapi import FastAPI, Path as PathParam, Query, File, UploadFile
@@ -123,8 +123,17 @@ def upload_and_build_graph(file: UploadFile = File(...),
     
 @app.get("/query")
 def query(query : str):
-    dict_intent = intent_detection(query,False)
-    return dict_intent["intent_classifier"]
+    subquery=eval(subquestion_split(query))
+    list_intent=[]
+    print(subquery)
+    if subquery['need_decomposition']=='yes':
+        for subq in subquery['subqueries']:
+            dict_intent = intent_detection(subq,False)
+            list_intent.append(dict_intent)
+    else:
+        dict_intent = intent_detection(query,False)
+        list_intent.append(dict_intent)
+    return list_intent
 
 
 if __name__ == "__main__":

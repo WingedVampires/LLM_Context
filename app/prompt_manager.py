@@ -27,7 +27,14 @@ class PromptManager:
         if role not in self.prompts:
             raise KeyError(f"未找到角色 prompt: {role}")
         return self.prompts[role]
-
+    
+    def build_messages(self):
+        """把渲染结果包装成 LLM 的 messages"""
+        return [
+            {"role": "system", "content": self.render["system"]},
+            {"role": "user", "content": self.render["user"]},
+        ]
+    
     def render(self, role, **kwargs):
         """
         渲染某个角色的 prompt.
