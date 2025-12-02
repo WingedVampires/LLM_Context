@@ -3,9 +3,9 @@ import json
 import os
 import sys
 import shutil
-from knowledge_graph import KnowledgeGraph # 从之前重构的 KG 导入
-from language_factory import LanguageConfigFactory, ParserFactory, language_by_extension, EXT_LANG_MAP
-from config import (
+from .knowledge_graph import KnowledgeGraph # 从之前重构的 KG 导入
+from .language_factory import LanguageConfigFactory, ParserFactory, language_by_extension, EXT_LANG_MAP
+from .config import (
     NEO4J_URI,
     NEO4J_USER,
     NEO4J_PASSWORD,
@@ -24,7 +24,7 @@ class CodeAnalyzer:
             NEO4J_URI,
             NEO4J_USER,
             NEO4J_PASSWORD,
-            'repo_analysis' # 固定数据库名，或从 config 取
+            config.get('db_name', 'repo_analysis')# 固定数据库名，或从 config 取
         )
         self.kg.clear_graph()
         self.kg._create_indexes()
@@ -158,6 +158,36 @@ class CodeAnalyzer:
             print(f"Error during cleanup: {e}")
         self.kg.close()
         print('Cleanup completed')
+        
+        
+def build_graph(repo_path = '/home/hreyulog/codebase/LLM_Context/Context_KG/repos/GDsmith', language = 'java', output_dir = '../output', collection_name='test_col'):
+    start_time = datetime.now()
+    print(f"Starting execution: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    # repo_path = sys.argv[1]
+    # output_dir = sys.argv[2] if len(sys.argv) > 2 else './output'
+    # language = sys.argv[3] if len(sys.argv) > 3 else 'python'
+    os.makedirs(output_dir, exist_ok=True)
+    config = {
+        'repo_path': repo_path,
+        'language': language,
+        'db_name': collection_name
+    }
+    print(f"Configuration: {config}")
+    analyzer = CodeAnalyzer(config)
+    result = analyzer.analyze()
+    if result is None:
+        print("Analysis returned no result. Exiting.")
+        sys.exit(1)
+    instance_id = os.path.basename(repo_path) # 用 repo 名作为 ID
+    output_file = os.path.join(output_dir, f"{instance_id}_analysis.json")
+    with open(output_file, 'w') as f:
+        json.dump(result, f, indent=4)
+    print(f"Results saved to: {output_file}")
+    end_time = datetime.now()
+    print(f"Completed: {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    duration = end_time - start_time
+    print(f"Total duration: {duration}")
+    
 if __name__ == "__main__":
     # if len(sys.argv) < 2:
     # print('[USAGE] python analyzer.py <repo_path> [output_dir] [language]')
@@ -170,7 +200,7 @@ if __name__ == "__main__":
     # repo_path = sys.argv[1]
     # output_dir = sys.argv[2] if len(sys.argv) > 2 else './output'
     # language = sys.argv[3] if len(sys.argv) > 3 else 'python'
-    repo_path = '../repos/GDsmith'
+    repo_path = '/home/hreyulog/codebase/LLM_Context/Context_KG/repos/GDsmith'
     output_dir = '../output'
     language = 'java'
     os.makedirs(output_dir, exist_ok=True)

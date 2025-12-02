@@ -1,9 +1,9 @@
 # knowledge_graph.py
 from neo4j import GraphDatabase
 import os
-from embedding import Embedding
-from utils import relative_path
-from config import (
+from .embedding import Embedding
+from .utils import relative_path
+from .config import (
     VECTOR_SIMILARITY_WEIGHT,
 )
 class KnowledgeGraph:
@@ -148,6 +148,7 @@ class KnowledgeGraph:
                     code_analyzer._build_file_class_methods(file_path)
     @staticmethod
     def _create_directory_structure(tx, base_path, weight=1):
+        file_paths = []
         for root, dirs, files in os.walk(base_path):
             # Create current directory
             abs_dir_path = root.replace('\\', '/')
@@ -165,7 +166,6 @@ class KnowledgeGraph:
                 dir_path=rel_dir_path or '/',
                 name=dir_name
             )
-            file_paths = []
             # If not root directory, create relationship with parent directory
             if rel_dir_path:
                 parent_dir_abs = os.path.dirname(abs_dir_path)
@@ -216,6 +216,7 @@ class KnowledgeGraph:
                     file_path=rel_file_path,
                     weight=weight
                 )
+        print(file_paths)
         return file_paths
     def create_class_entity(self, class_name, file_path, start_line, end_line, source_code, doc_string="", weight=1):
         source_code = source_code or ''
