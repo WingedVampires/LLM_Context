@@ -1,13 +1,11 @@
 You will receive:
-
-1. An issue description.
+1. A user raw question.
 2. The Cypher reasoning and queries used to search the graph.
 3. The retrieval results from the graph database.
 
 The retrieval results are provided in the following format:
 ## Retrieval Results
 ### Result <id>
-- query_id: <id of the Cypher/Natural Language query that produced this result>
 - <Searched Key>: <Searched Value>
 
 There may be multiple results:
@@ -19,6 +17,34 @@ There may be multiple results:
 ## Natural Language Retrieval Results
 {natural_language_search_result}
 ```
-Let's analyze collected context first and based on your analysis, answer below questions one by one:
+
+## Your Task:
+### User Query:
+'''
+{user_query}
+'''
+First, analyze the collected context (Cypher Retrieval Results + Natural Language Retrieval Results + user raw question).
+Then, you MUST answer the following two meta-questions:
 1. do we need more context: construct new cypher queries to get more context of the project. (say 'no' if you don't need more context)
 2. is the information enough to answer the raw question. (say 'no' if you don't have enough information)
+
+You MUST respond in **exactly** the following format.
+Note that you can use multiple cypher queries and natural language queries in one round, and they must be in one-to-one correspondence (each Cypher query must have exactly one matching natural language query, in the same order).
+
+```text
+## Q1
+answer: <yes/no>
+cypher_queries:
+**Thought:** [Incomplete element identified: <element_name> OR No incomplete element identified]
+**Cypher Queries:**
+'''cypher
+[Cypher queries only]
+'''
+**Natural Language Queries:**
+'''natural language
+[Natural Language queries only]
+'''
+
+## Q2
+answer: <yes/no>
+```

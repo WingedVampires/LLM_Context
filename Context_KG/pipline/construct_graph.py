@@ -3,9 +3,9 @@ import json
 import os
 import sys
 import shutil
-from .knowledge_graph import KnowledgeGraph # 从之前重构的 KG 导入
-from .language_factory import LanguageConfigFactory, ParserFactory, language_by_extension, EXT_LANG_MAP
-from .config import (
+from knowledge_graph import KnowledgeGraph # 从之前重构的 KG 导入
+from language_factory import LanguageConfigFactory, ParserFactory, language_by_extension, EXT_LANG_MAP
+from config import (
     NEO4J_URI,
     NEO4J_USER,
     NEO4J_PASSWORD,
@@ -200,7 +200,7 @@ if __name__ == "__main__":
     # repo_path = sys.argv[1]
     # output_dir = sys.argv[2] if len(sys.argv) > 2 else './output'
     # language = sys.argv[3] if len(sys.argv) > 3 else 'python'
-    repo_path = '/home/hreyulog/codebase/LLM_Context/Context_KG/repos/GDsmith'
+    repo_path = '/root/lishuochuan/LLM_Context/Context_KG/repos/jjwt'
     output_dir = '../output'
     language = 'java'
     os.makedirs(output_dir, exist_ok=True)

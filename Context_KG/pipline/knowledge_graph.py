@@ -1,9 +1,9 @@
 # knowledge_graph.py
 from neo4j import GraphDatabase
 import os
-from .embedding import Embedding
-from .utils import relative_path
-from .config import (
+from embedding import Embedding
+from utils import relative_path
+from config import (
     VECTOR_SIMILARITY_WEIGHT,
 )
 class KnowledgeGraph:

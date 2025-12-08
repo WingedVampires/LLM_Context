@@ -17,7 +17,7 @@ from collections import defaultdict
 import subprocess
 import io
 import tokenize
-from .config import SEARCH_SPACE
+from config import SEARCH_SPACE
 
 repo_locks = defaultdict(threading.Lock)
 

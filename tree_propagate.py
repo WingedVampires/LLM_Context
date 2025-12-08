@@ -71,7 +71,7 @@ def build_candidate_graph_from_neo4j(
         candidate_ids: List[int],
         max_hop: int = 2,
         label_rank: Dict[str, int] = LABEL_RANK,
-) -> Tuple[List[NodeId], List[Tuple[NodeId, NodeId, float]], Dict[NodeId, List[str]], Dict[NodeId, List[float]], Dict[NodeId, str]]:
+) -> Tuple[List[NodeId], List[Tuple[NodeId, NodeId, float]], Dict[NodeId, List[str]], Dict[NodeId, List[float]], Dict[NodeId, str], Dict[NodeId, str], Dict[NodeId, str]]:
     """
     从一批候选节点出发，做 1..max_hop 跳扩展，得到：
     - nodes: 所有涉及的节点 id 列表
@@ -88,7 +88,7 @@ def build_candidate_graph_from_neo4j(
             MATCH p = (c)-[*1..{max_hop}]-(n)
             WITH COLLECT(DISTINCT c) + COLLECT(DISTINCT n) AS nodes
             UNWIND nodes AS n
-            RETURN DISTINCT id(n) AS id, n.name AS name, labels(n) AS labels, n.embedding AS embedding;
+            RETURN DISTINCT id(n) AS id, n.name AS name, n.source_code AS code, n.file_path AS file_path, labels(n) AS labels, n.embedding AS embedding;
             """,
             candidate_ids=candidate_ids,
         )
@@ -96,15 +96,21 @@ def build_candidate_graph_from_neo4j(
         node_labels: Dict[NodeId, List[str]] = {}
         node_embeddings: Dict[NodeId, list] = {}
         node_names: Dict[NodeId, str] = {}
+        node_codes: Dict[NodeId, str] = {}
+        node_file_paths: Dict[NodeId, str] = {}
 
         for rec in node_records:
             node_id = rec["id"]
             labels = rec["labels"]
             embedding = rec["embedding"]
             name = rec["name"]
+            code = rec["code"]
+            file_path = rec["file_path"]
             node_labels[node_id] = labels
             node_embeddings[node_id] = embedding
             node_names[node_id] = name
+            node_codes[node_id] = code
+            node_file_paths[node_id] = file_path
 
         nodes = list(node_labels.keys())
 
@@ -162,7 +168,7 @@ def build_candidate_graph_from_neo4j(
 
         edges = list(edge_map.values())
 
-    return nodes, edges, node_labels, node_embeddings, node_names
+    return nodes, edges, node_labels, node_embeddings, node_names, node_codes, node_file_paths
 
 
 def find_connected_components(nodes: List[NodeId], edges: List[Tuple[NodeId, NodeId, float]]):
@@ -314,14 +320,9 @@ def graph_retrieval(
       5) 按 S_v 排序，返回 Top-K 节点及得分
     """
     # 1. 构建基础候选图
-    nodes, edges, node_labels, node_embeddings, node_names = build_candidate_graph_from_neo4j(
+    nodes, edges, node_labels, node_embeddings, node_names, node_codes, node_file_paths = build_candidate_graph_from_neo4j(
         driver, candidate_ids, max_hop=max_hop
     )
-
-    print("nodes:", nodes)
-    print("nodes_num:", len(nodes))
-    print("edges:", len(edges))
-    print(node_labels)
 
     # 2. 附加虚拟根
     nodes_with_root, edges_with_root, root_id = attach_virtual_root(
@@ -360,8 +361,10 @@ def graph_retrieval(
     top_k_nodes = ranked[:k]
     top_k_names = [node_names[node_id] for node_id in top_k_nodes]
     top_k_scores = {v: final_scores[v] for v in top_k_nodes}
+    top_k_codes = {v: node_codes[v] for v in top_k_nodes}
+    top_k_file_paths = {v: node_file_paths[v] for v in top_k_nodes}
 
-    return top_k_nodes, top_k_scores, top_k_names
+    return top_k_nodes, top_k_scores, top_k_names, top_k_codes, top_k_file_paths
 
 
 # 示例用法
@@ -371,17 +374,18 @@ if __name__ == "__main__":
     from neo4j import GraphDatabase
 
     driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "88888888"))
-
-    # 1. 你之前通过某种 Cypher 得到的初始候选节点 id 列表
-    candidate_ids = [1566, 1577]
-
     embedding_tool = Embedding()
 
-    # 2. query 的向量（你在外面算好）
-    query_embedding: List[float] = embedding_tool.get_embedding(
-        'Is this really a relationships, not a relationship? It may be a code error\n\nIn the randomCluster method of the GraphManager file, this code example. add (randomInstance (Arrays. asList (relationships. getFrom(), relationships. getTo()), relationships); This should be a relationship, right？the GraphManager file is src/main/java/org/example/gdsmith/cypher/gen/GraphManager.java')
+    # 1. 之前通过某种 Cypher 得到的初始候选节点 id 列表
+    candidate_ids = [1566, 1577]
 
-    top_nodes, top_scores, top_node_names = graph_retrieval(
+    # 2. query 的向量
+    query_embedding: List[float] = embedding_tool.get_embedding(
+        'Is this really a relationships, not a relationship? It may be a code error\n\nIn the randomCluster method of the GraphManager file, '
+        'this code example. add (randomInstance (Arrays. asList (relationships. getFrom(), relationships. getTo()), relationships); '
+        'This should be a relationship, right？the GraphManager file is src/main/java/org/example/gdsmith/cypher/gen/GraphManager.java')
+
+    top_nodes, top_scores, top_node_names, top_node_codes = graph_retrieval(
         driver=driver,
         candidate_ids=candidate_ids,
         query_embedding=query_embedding,

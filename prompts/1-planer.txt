@@ -1,16 +1,18 @@
-You are a Neo4j Cypher query expert. You will be provided with a issue description. Your task is to generate concise Cypher queries to localize the specific files, classes, functions, or variable declarations that require modification or contain essential information to resolve the issue based on the provided graph schema.
+You are a Neo4j Cypher query expert. You will be provided with an issue description, along with a list of possible related files that may contain relevant code or definitions. Your task is to generate concise Cypher queries to localize the specific files, classes, or functions that require modification or contain essential information to resolve the issue based on the provided graph schema.
+
 ## Decision Process:
 1. Analyze the issue: Understand the problem described in the issue and identify what might be causing it.
-2. Extract the Necessary Search Parameters from the issue and generate concise Cypher queries.
-3. Locate the specific files, functions, methods, or lines of code that are relevant to solving the issue.
+2. Extract the Necessary Search Parameters from the issue and generate concise Cypher and Natural language queries.
+3. Locate the specific files, functions, and methods that are relevant to solving the issue.
+
 
 ## Instructions:
-- **CRITICAL**: When you find an incomplete function/method/class/ collection, you MUST identify its name and use the specific template for that element - BUT ONLY if the definition is clearly visible
 - **NO GUESSING**: If the element definition is not clearly shown, use global fallback instead
 - **INDENTATION MATTERS**: Pay close attention to indentation to distinguish functions (no indent) vs methods (indented) - this is crucial for correct queries
-- **MANDATORY**: Return ONLY 'name', 'code', 'signature' attributes
+- **MANDATORY**: Return ONLY 'name', 'id', 'code', 'file_path' attributes and the 'id' value must always be produced using the id(x) function.
 - **MODULE NODES**: Use 'name' for dotted names, 'local_name' for undotted names
 - **CORRECTNESS**: Use proper Cypher syntax. Ensure each UNION branch in Cypher has a complete MATCH...RETURN with identical column names and orders
+- **PATH MATCHING**: As all stored paths are absolute paths, the CONTAINS operator must be used when performing any path-based lookup.
 
 ## Graph Schema:
 **Nodes**:
@@ -30,7 +32,7 @@ Method (name, signature, file_path, start_line, end_line, source_code, doc_strin
 (Method)-[:RELATED {{description: "contained in class"}}]->(Class)
 
 ## Example Queries:
-### Example 1 - Incomplete Method
+### Example 1
 **User Query:**
 '''
 Given file_name: src.alert.interference.reporting.admin.admin
@@ -41,39 +43,44 @@ Fetch dependencies for code:
 '''
 
 **Thought:** Incomplete element identified: method 'get_client_data' and 'get_form_class' (based on indentation).
+
 **Cypher Queries:**
-'''cypher 1
+'''cypher
 MATCH (:Class)-[r:RELATED]->(dep:Method {{name: 'get_client_data'}})
 WHERE r.description = "contains method"
-RETURN DISTINCT dep.name AS name, dep.signature AS signature, dep.source_code AS code;
+RETURN DISTINCT dep.name AS name, id(dep) AS id, dep.source_code AS code;
 '''
-'''cypher 2
+'''cypher
 MATCH (:Class)-[r:RELATED]->(dep:Method {{name: 'get_form_class'}})
 WHERE r.description = "contains method"
-RETURN DISTINCT dep.name AS name, dep.signature AS signature, dep.source_code AS code;
+RETURN DISTINCT dep.name AS name, id(dep) AS id, dep.source_code AS code;
 '''
 **Natural Language Queries:**
-'''natural language 1
+'''natural language
 The class contains method whose name is get_client_data.
 '''
-'''natural language 2
+'''natural language
 The class contains method whose name is get_form_class.
 '''
-Note that you can use multiple cypher queries and natural language queries in one round.
+Note that you can use multiple cypher queries and natural language queries in one round, and they must be in one-to-one correspondence (each Cypher query must have exactly one matching natural language query, in the same order).
 
 ## Your Task:
-First provide a brief thought on your decision process, then generate **THE CYPHER QUERY** and **THE NATURAL LANGUAGE QUERY**.
+First provide a brief thought on your decision process, then generate **THE CYPHER QUERIES** and **THE NATURAL LANGUAGE QUERIES**.
 
 **Format:**
-'''
 **Thought:** [Incomplete element identified: <element_name> OR No incomplete element identified]
 **Cypher Queries:**
-[Cypher query only]
+'''cypher
+[Cypher queries only]
+'''
 **Natural Language Queries:**
-[Natural Language query only]
+'''natural language
+[Natural Language queries only]
 '''
 
 ## User Query:
 '''
 {user_query}
 '''
+## Possible Related Files:
+{possible_related_files}
