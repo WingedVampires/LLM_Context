@@ -24,11 +24,9 @@ client = OpenAI(
 )
 
 with (open('./prompts/1-planer.txt', 'r') as f_1,
-      open('./prompts/2-analysis.txt', 'r') as f_2,
-      open('./prompts/3-sufficient.txt', 'r') as f_3):
+      open('./prompts/2-analysis.txt', 'r') as f_2):
     planer_prompt = f_1.read()
     analysis_prompt = f_2.read()
-    sufficient_prompt = f_3.read()
 
 messages = []
 
@@ -138,22 +136,20 @@ def cypher_respond_format(cypher_respond, query_id):
     return res
 
 
-def retrieve(raw_query, possible_related_files, semantic_search_top_k=5, path='res') -> Dict[str, Dict]:
+def retrieve(raw_query, semantic_search_top_k=5, save_path='res') -> Dict[str, Dict]:
     retrieval_results: Dict = {'cypher': {}, 'nl': {}}
     import os
-    os.makedirs(path, exist_ok=True)
+    os.makedirs(save_path, exist_ok=True)
     response = call_llm(
         {"role": "user", "content": planer_prompt.format(
-            user_query=raw_query,
-            possible_related_files=possible_related_files)
+            user_query=raw_query)
          }
     )
-    with open(f'{path}/planner_prompt.txt', 'w+') as f:
+    with open(f'{save_path}/planner_input.txt', 'w+') as f:
         f.write(planer_prompt.format(
-            user_query=raw_query,
-            possible_related_files=possible_related_files)
+            user_query=raw_query)
         )
-    with open(f'{path}/planner.txt', 'w+') as f:
+    with open(f'{save_path}/planner_output.txt', 'w+') as f:
         f.write(response)
 
     # with open(f'{path}/planner.txt', 'r') as f:
@@ -204,7 +200,7 @@ def retrieve(raw_query, possible_related_files, semantic_search_top_k=5, path='r
 
                         retrieval_results['nl'][node_id] = {'name': top_node_names[i], 'code': top_node_codes[node_id], 'file_path': top_k_file_paths[node_id]}
 
-        with open(f'{path}/analysis-{epoch}_prompt.txt', 'w+') as f:
+        with open(f'{save_path}/analysis-{epoch}_input.txt', 'w+') as f:
             f.write(analysis_prompt.format(cypher_search_result=cypher_respond_txt,
                                            user_query=raw_query,
                                            natural_language_search_result=natural_language_respond_txt))
@@ -212,7 +208,7 @@ def retrieve(raw_query, possible_related_files, semantic_search_top_k=5, path='r
         response = call_llm({"role": "user", "content": analysis_prompt.format(cypher_search_result=cypher_respond_txt,
                                                                                user_query=raw_query,
                                                                                natural_language_search_result=natural_language_respond_txt)})
-        with open(f'{path}/analysis-{epoch}.txt', 'w+') as f:
+        with open(f'{save_path}/analysis-{epoch}_output.txt', 'w+') as f:
             f.write(response)
 
         analysis_result = extract_analysis_results(response)
@@ -281,23 +277,21 @@ if __name__ == '__main__':
     embedding_tool = Embedding()
     raw_query: str = upstream_input['requirements'][0]
 
-    possible_related_files = '\n'.join([item['file'] for item in upstream_input['files']])
-
-    retrieve(raw_query=raw_query, possible_related_files=possible_related_files, path='res')
-    with open(f'/root/lishuochuan/LLM_Context/res-1/analysis-3.txt', 'r') as f:
-        response = f.read()
-    query_results = extract_query_results(response)
-    print(json.dumps(query_results, indent=4))
-    cypher_respond_txt = ''
-    for query_idx, (cypher, natural_language) in enumerate(zip(query_results["cypher_queries"], query_results["natural_language_queries"])):
-        #### 根据llm提出的query进行cypher查询
-        cypher_responds = run_cypher(cypher)
-        candidate_nodes_ids = []
-
-        #### 根据llm提出的query进行候选图语义查询
-        for cypher_respond in cypher_responds:
-            node_id = cypher_respond["id"]
-            candidate_nodes_ids.append(node_id)
-            cypher_respond_txt += cypher_respond_format(cypher_respond, query_id=query_idx)
-    print(cypher_respond_txt)
+    retrieve(raw_query=raw_query, save_path='res-2')
+    # with open(f'/root/lishuochuan/LLM_Context/res-1/analysis-3.txt', 'r') as f:
+    #     response = f.read()
+    # query_results = extract_query_results(response)
+    # print(json.dumps(query_results, indent=4))
+    # cypher_respond_txt = ''
+    # for query_idx, (cypher, natural_language) in enumerate(zip(query_results["cypher_queries"], query_results["natural_language_queries"])):
+    #     #### 根据llm提出的query进行cypher查询
+    #     cypher_responds = run_cypher(cypher)
+    #     candidate_nodes_ids = []
+    #
+    #     #### 根据llm提出的query进行候选图语义查询
+    #     for cypher_respond in cypher_responds:
+    #         node_id = cypher_respond["id"]
+    #         candidate_nodes_ids.append(node_id)
+    #         cypher_respond_txt += cypher_respond_format(cypher_respond, query_id=query_idx)
+    # print(cypher_respond_txt)
     # exit(0)

@@ -1,4 +1,4 @@
-You are a Neo4j Cypher query expert. You will be provided with an issue description, along with a list of possible related files that may contain relevant code or definitions. Your task is to generate concise Cypher queries to localize the specific files, classes, or functions that require modification or contain essential information to resolve the issue based on the provided graph schema.
+You are a Neo4j Cypher query expert. You will be provided with an issue description. Your task is to generate concise Cypher queries to localize the specific files, classes, or functions that require modification or contain essential information to resolve the issue based on the provided graph schema.
 
 ## Decision Process:
 1. Analyze the issue: Understand the problem described in the issue and identify what might be causing it.
@@ -9,7 +9,7 @@ You are a Neo4j Cypher query expert. You will be provided with an issue descript
 ## Instructions:
 - **NO GUESSING**: If the element definition is not clearly shown, use global fallback instead
 - **INDENTATION MATTERS**: Pay close attention to indentation to distinguish functions (no indent) vs methods (indented) - this is crucial for correct queries
-- **MANDATORY**: Return ONLY 'name', 'id', 'code', 'file_path' attributes and the 'id' value must always be produced using the id(x) function.
+- **MANDATORY**: You must return the attributes 'name', 'id', and 'file_path', and the 'id' value must always be generated using the id(x) function. Only When you must inspect a specific function/class in detail, return EXTRA the attribute 'code'.
 - **MODULE NODES**: Use 'name' for dotted names, 'local_name' for undotted names
 - **CORRECTNESS**: Use proper Cypher syntax. Ensure each UNION branch in Cypher has a complete MATCH...RETURN with identical column names and orders
 - **PATH MATCHING**: As all stored paths are absolute paths, the CONTAINS operator must be used when performing any path-based lookup.
@@ -82,5 +82,3 @@ First provide a brief thought on your decision process, then generate **THE CYPH
 '''
 {user_query}
 '''
-## Possible Related Files:
-{possible_related_files}
